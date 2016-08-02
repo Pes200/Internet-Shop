@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style>
+        .row{
+            text-align: center;
+            height: 0px;
+        }
+        .row1{
+            background-color: black;
+            height: 200px;
+        }
+        .row2{
+            background-color: black;
+            height: 70px;
+            color:white;
+            font-size: 24px;
+            padding-top: 18px;
+            margin-top: -15px;
+            font-family:Dolphins;
+            text-shadow: 1px 1px 1px #111;
+        }
+        .row3{
+            background-color: red;
+            height: 70px;
+        }
+        .row4{
+            background-color: yellow;
+            height: 70px;
+        }
+        .row5{
+            background-color: brown;
+            height: 70px;
+        }
+        .row6{
+            background-color: white;
+            height: 300px;
+        }
+        
+        .row9{
+            background-color: #CCFFF9;
+            height: 180px;
+        }
+        .row10{
+            background-color: yellow;
+            height: 180px;
+        }
+        .row11{
+            background-color: #DEB8F5;
+            height: 180px;
+        }
+        .row12{
+           background-color: #C5E9EB;
+           height: 45px;  
+        }
+        #mts{
+            width:20px;
+            height: 20px;
+            margin-left: -140px;
+            margin-top: 5px;
+         }   
+        #life{
+            width:20px;
+            height: 20px;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+        #kvr{
+            width:20px;
+            height: 20px;
+            margin-left: 33px;
+            margin-top: 5px;
+        }
+        #n1{
+            padding-top: 10px;
+        }
+        #ale{
+            font-family: Monotype Corsiva;
+            font-size: 20px;
+            float: left;
+        }
+        #reg{
+            font-family: Monotype Corsiva;
+            font-size: 24px;
+        }
+        
+        #p:hover{
+            border: 4px solid white;    
+            }
+        #box{ 
+            margin-top:46px; 
+            width: 70px; 
+            height: 70px; 
+            font-size:20px;
+            margin-left: -10px; 
+            }           
+  
+        #foot1{
+            font-family: Monotype Corsiva;
+            font-size: 24px;
+            color:  white;
+            text-align: center;
+        }
+        
+       .foots{
+           font-family: TREBUCHET MS; 
+           font-size: 16px;  
+        }
+        
+        #foot10{
+           font-family: segoe script; 
+           color:  white;
+        }
+        
+        #foot11{
+            font-family: segoe script;
+            font-size: 12px;  
+            color: white;
+        }
+        .subscribe-field-input{ 
+        margin-left: -60px; 
+        width: 220px; 
+        height: 20px; 
+        } 
+        .subscribe-form{ 
+        background-color: orange; 
+        border-radius: 10px; 
+        font-family: wide latin; 
+        }
+        .item{
+            margin-top:0px;
+            height: 150px;
+            width: 200px;
+        }
+        .itemHref{
+            font-family: PT sans;
+            color:  black;
+            text-decoration: none;
+            font-size: 22px;
+        }
+        .cost{
+            font-size: 22px;
+            float:left;
+        }
+        .itemBut{
+            font-size: 25px;
+            color:white;
+            background-color: orange;
+            float:right;
+            margin-top: -10px;
+        }
+        #main_search{
+            font: italic 15px 'PT Serif';
+            position: relative;
+            width: 165px;
+            height: 40px;
+            margin-top:25px;
+            margin-left: -10px;
+            background-color: white;
+            outline: 0;
+            
+        }
+        #navigat{
+            font-size: 24px;
+            font-family: Monotype Corsiva;
+        }
+        
+        #ser{
+            width: 30px;
+            position: relative;
+            margin-top:  -60px;
+            margin-left: 120px;
+        }
+    .form .form-content {
+            position: relative;
+            z-index: 2;
+            width: 320px;
+            padding: 1px 58px 2px;
+            background: url(../images/bg/form/other/bg.png) -437px 0 repeat-y;
+    }
+    
+    .btn btn-primary btn-lg disabled{
+        height:  50px;
+    }
+    
+    
+   
+    </style>
+  </head>
+  
+  
+  <body>
+   
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-5 row12">
+                        <img id="mts" src="http://a2.mzstatic.com/us/r30/Purple4/v4/b7/e6/4d/b7e64d07-d5bf-a7e2-3acc-77b80036c155/mzl.voidwwvx.png"/> <span id="n1">0950017763</span>
+                        <img id="life" src="http://vido.com.ua/upload/articles/2500/26391336662480.jpg"/> <span id="n1">0931477099</span>
+                        <img id="kvr" src="http://img1.globalinfo.ua/im/old/novosti/2013/04/15/14471_0828.jpg"/>  <span id="n1">0964156640</span>
+                    </div>
+                    <div class="col-lg-4 row12">
+                    <span id="ale">Интернет-магазин:(Пн-Сб, 09:00-18:00)</span>
+                    </div>
+                    <div class="col-lg-3 row12">
+                        <a href="/" id="reg">Вход/</a>
+                        <a href="/reg" id="reg">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+  
+   
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div  id ="p"class="col-lg-3 row2"></i><a href="/">Главная</a></div>
+                                        <div id ="p"class="col-lg-3 row2"><a href="/category/male">Мужская</a></div>
+                                       <div id ="p"class="col-lg-3 row2"><a href="/category/female">Женская</a></div>
+                                       <div id ="p"class="col-lg-3 row2"><a href="/category/childly">Детская</a></div>
+                                       
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+    </div>  
+    
+      <div class="container"> 
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-9 row9">
+                       <!--div id="container" class="cf">
+                                  <div id="main" role="main">
+                                    <section class="slider">
+                                      <div class="flexslider">
+                                        <ul class="slides">
+                                          <li>
+                                              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg">
+                                              </li>
+                                              <li>
+                                              <img src="images/kitchen_adventurer_lemon.jpg">
+                                              </li>
+                                              <li>
+                                              <img src="images/kitchen_adventurer_donut.jpg">
+                                              </li>
+                                              <li>
+                                              <img src="images/kitchen_adventurer_caramel.jpg">
+                                              </li>
+                                        </ul>
+                                      </div>
+                                    </section>
+                                  </div>
+                                </div-->
+                
+                    </div>
+        <div class="col-lg-2 row10">
+            <span id ="navigat">Навигация</span>
+            <input id="main_search" type="text" name="search" />
+            <a href="#"><img id="ser" src="http://www.iconsearch.ru/uploads/icons/humano2/48x48/gnome-searchtool.png"/></a>
+            <button type="button" class="btn btn-primary btn-lg active">Найти</button>
+            </div>
+                <div class="col-lg-1 row11">
+                <a href="/basket"><img id="box" src="http://365psd.com/images/previews/b90/shopping-cart-icon-psd-image-2367shopping-cart-icon-515.png"/> 
+                        Корзина 
+                </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>  
+  <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 row6">
+                      <img class="item" src="http://www.fainaidea.com/wp-content/uploads/2015/11/oxford1.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/item"><br/>Туфли классические</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/>   
+                    </div>
+                    <div class="col-lg-4 row6"><img class="item" src="http://hypebeast.ru/wp-content/uploads/2014/09/converse-2014-fall-chuck-taylor-rubber-collection-5-1024x682.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/item"><br/>Кеды CONVERSE</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> </div>
+                    <div class="col-lg-4 row6"><img class="item" src="http://korobokdv.ru/sites/default/files/11._galoshi_sadovye_205-01_205-02.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/item"><br/>Галошы деловые</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> </div>
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 row6">
+                    <img class="item" src="http://докторорто.рф/wp-content/uploads/2012/08/princessa_3HA.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/item"><br/>Сандали детские</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                    <div class="col-lg-4 row6">
+                        <img class="item" src="http://www.ecco-shoes.ru/images/eshop/img/jpg/bigw/721422_58824.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/item"><br/>Ботинки Ecco HR-1221</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                    <div class="col-lg-4 row6">
+                        <img class="item" src="http://official-sait.ru/images/kari/kari_2013%20(2).jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/"><br/>Лабутены "модные"</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><a href="/basket"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4 row6">
+                        <img class="item" src="http://ralf.ru/upload/iblock/f6e/f6eadf32a190627ccc9f630cfd8752f2.png" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/"><br/>Туфли для свиданий</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                    <div class="col-lg-4 row6">
+                        <img class="item" src="http://medorto.ru/assets/images/13_102.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/"><br/>Детская ортопедическая обувь</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                    <div class="col-lg-4 row6">
+                        <img class="item" src="http://www.astrakhan-online.ru/images/cms/data/news/health/20150629/2.jpg" alt="Кроссовки Bellamila A1317-5">
+                        <a class="itemHref" href="/"><br/>Мокасины классические</a><br/><hr/>
+                        <span class="cost">435 грн</span><a href="/item"><input class="itemBut" type="button" value="Kупить"/><br/><hr/> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+   </div>
+        
+        
+   <style>
+    #MySubs{
+        margin-left:15px;
+        height: 30px;    
+    }
+    #mysubs{
+        margin-top:-9px;
+    }
+ </style>
+ <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-0"></div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-3 row1">
+                        <p id="foot1">Магазин</p>
+                        <a href="/man"><p class ="foots">Мужская</p></a>
+                        <a href="/woman"><p class ="foots">Женская</p></a>
+                        <a href="/baby"><p class ="foots">Детская</p></a>
+                    </div>
+                    <div class="col-lg-3 row1">
+                        <p id="foot1">Помощь</p>
+                        <a href="/contacts"><p class ="foots">Контакты</p></a>
+                        <a href="/pay"><p class ="foots">Оплата и доставка</p></a>
+                        <a href="/articles"><p class ="foots">Статьи</p></a>
+                        <a href="/cooparation"><p class ="foots">Сотрудничество</p></a>
+                    </div>
+                    <div class="col-lg-6 row1">
+                        <span id="foot10">Не пропустите новинки и акции от нашего интернет-магазина!
+                              Оформите бесплатную подписку и получите 50 грн скидки на первые покупки*!
+                              *при заказе на сумму мин. 250 грн</span><br/>
+                        <br/>
+                        <p id="foot11">Введите адрес электронной почты:</p><input class="subscribe-field-input" name="email" type="text" maxlength="255" placeholder="Введите адрес електронной почты" value=""/>
+                        <a href="/man" id="MySubs" class="btn btn-primary btn-lg disabled" value="Подписаться" role="button"><p id="mysubs">Подписаться</p></a>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-lg-0"></div>
+        </div>
+       
+   </div>       
+  
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script defer="" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+</script>
+  </body>
+</html>
